@@ -12,3 +12,6 @@ Fontes
 ![Fontes](https://github.com/andersondelfino/ProjetoWeb/assets/111386860/7864d022-51ec-4c90-bca8-a604b1e573b8)
 Paleta de cores
 ![Paleta de Cores](https://github.com/andersondelfino/ProjetoWeb/assets/111386860/da89ec0c-9361-45fe-bbee-8f1aea4d8ce9)
+Logo
+![Logo](https://github.com/andersondelfino/ProjetoWeb/assets/111386860/04d67902-359c-4678-bbec-795f0b3d98c1)
+
