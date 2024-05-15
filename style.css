@@ -1,0 +1,31 @@
+.header {
+    background-color: rgb(235, 229, 229);
+    display: flex;
+    height: 120px;
+    justify-content: space-between; /* Distribui os elementos no cabeçalho */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.logo {
+    display:flex;
+    height: 80px;
+    
+}
+
+.menu-header {
+    display: inline-flex; /* Torna os itens do menu flexíveis para alinhar à direita */
+    justify-content: flex-end; /* Alinha os itens do menu à direita */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px;
+    align-self:flex-end;   
+}
+.itens-menu {
+    padding: 20px;
+    font-size:20px; 
+}
+/* Adiciona um pipe (|) apenas no último item do menu */
+.itens-menu:last-child::after {
+    content: "|";
+    margin-left: 40px; /* Espaçamento entre o texto e o pipe */
+}
+
