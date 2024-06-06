@@ -1,0 +1,82 @@
+*h1 {
+    font-family: "Dm san", sans-serif;
+  }
+  *p {
+    font-family: "Inter", sans-serif;
+  }
+  a{
+  text-decoration: none;
+  color: black;
+  }
+  .header {
+    background-color: white(235, 229, 229);
+    display: flex;
+    height: 190px;
+    justify-content: space-between; /* Distribui os elementos no cabeçalho */
+    align-items: center; /* Alinha verticalmente */
+  }
+  
+  .logo {
+    display: flex;
+    height: 430px;
+    margin-top: 20px;
+  }
+  
+  .menu-header {
+    display: inline-flex; /* Torna os itens do menu flexíveis para alinhar à direita */
+    justify-content: flex-end; /* Alinha os itens do menu à direita */
+    align-items: center; /* Alinha verticalmente */
+    align-self: flex-end;
+    padding: 10px;
+  }
+  .itens-menu {
+    padding: 15px 40px;
+    font-size: 25px;
+  }
+  /* Adiciona um pipe (|) apenas no último item do menu */
+  .itens-menu:last-child::after {
+    content: "|";
+    margin-left: 40px; /* Espaçamento entre o texto e o pipe */
+  }
+
+  .sobreposto {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.568
+    ); /* O fundo translúcido cobrirá toda a imagem */
+  }
+
+
+
+  footer {
+    display: flex;
+    height: 200px;
+    background-color: #6c6d6c;
+    margin-top: 0px;
+    overflow: hidden;
+  }
+  .img-logo-footer {
+   
+    margin-top: -90px;
+    margin-left: 50px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 90px;
+    width: 99%;
+  }
+  .referencia {
+    background-color: #8d8c8c;
+    display: flex;
+    justify-content: center;
+  }
+  
