@@ -15,3 +15,10 @@ Paleta de cores
 Logo
 ![Logo](https://github.com/andersondelfino/ProjetoWeb/assets/111386860/04d67902-359c-4678-bbec-795f0b3d98c1)
 
+# Alterações feitas na 1° entrega: 
+1-Color e font-family do header
+
+2-Alteração no backgroud-color do Footer. A cor ultilizada no Figma, quando aplicada no site teve uma consideravel mundança de tonalidade.
+
+3-Adição de uma nova font-family: 'Times New Roman', Times, serif.
+
