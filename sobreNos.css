@@ -8,6 +8,9 @@ a {
   text-decoration: none;
   color: black;
 }
+body {
+background-color: rgb(194, 193, 193)
+}
 .header {
   background-color: white(235, 229, 229);
   display: flex;
@@ -40,19 +43,16 @@ a {
 }
 .container-img-principal {
   position: relative;
+
 }
+
 .sobreposto {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.774
-  ); /* O fundo translúcido cobrirá toda a imagem */
+  background-color: rgba(242, 13, 13, 0.774); /* O fundo translúcido cobrirá toda a imagem */
 }
 .container-article1 {
   display: flex;
@@ -102,16 +102,6 @@ a {
   border: 1px solid #ccc;
 }
 
-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0); /* Cor de fundo do botão */
-  color: white;
-  border: none;
-  padding: 5px 20px;
-  cursor: pointer;
-}
 
 .prev-button {
   left: 0px;
@@ -121,6 +111,7 @@ button {
   right: 0px;
 }
 .container-article3 {
+  position: relative;
   margin-left: 120px;
   margin-bottom: 50px;
 }
@@ -145,24 +136,25 @@ samp {
   font-weight: bold;
   font-size: 23px;
 }
-.orcamento {
-}
+
 .titulo-orçamento {
   display: flex;
   font-size: 37px;
   font-family: "Dm San", sans-serif;
-  color: rgb(100, 99, 100);
+  color: rgb(67, 66, 66);
   justify-content: center;
   align-items: center;
 }
 .texto-orçamento {
   display: flex;
-  color: rgb(90, 90, 90);
+  color: rgb(67, 66, 66);
   font-size: 30px;
   justify-content: center;
   align-items: center;
 }
 button {
+  position: absolute;
+  top: 50%;
   display: flex;
   background-color: #007bff; /* Cor de fundo do botão */
   color: white; /* Cor do texto */
@@ -173,11 +165,23 @@ button {
   cursor: pointer; /* Cursor em forma de mão ao passar por cima */
   transition: background-color 0.3s ease; /* Animação para a cor de fundo */
 }
+.orcamento{
+  
+}
+.botao-azul {
+background-color: #007bff;
+padding: 10px 20px;
+border: 1px black;
+border-radius: 5px;
+margin-left: 47%;
+
+
+}
 footer {
   display: flex;
   height: 200px;
   background-color: #6c6d6c;
-  margin-top: 0px;
+  margin-top: 120px;
   overflow: hidden;
 }
 .img-logo-footer {
@@ -196,3 +200,4 @@ footer {
   display: flex;
   justify-content: center;
 }
+
