@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contados.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contados.css" />
     <title>Contado</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-        <div class="logo"><img src="./imagens/img-home/logo header.png" alt="" /></div>
-        <div class="menu-header">
-          <div class="itens-menu"><a href="index.html">HOME</a></div>
-          <div class="itens-menu"><a href="sobre.html">SOBRE</a></div>
-          <div class="itens-menu"><a href="projetos.html">PROJETOS</a></div>
-          <div class="itens-menu"><a href="contado.html">CONTATO</a></div>
-        </div>
+      <div class="logo">
+        <img src="./imagens/img-home/logo header.png" alt="" />
       </div>
+      <div class="menu-header">
+        <div class="itens-menu"><a href="index.html">HOME</a></div>
+        <div class="itens-menu"><a href="sobre.html">SOBRE</a></div>
+        <div class="itens-menu"><a href="projetos.html">PROJETOS</a></div>
+        <div class="itens-menu"><a href="contado.html">CONTATO</a></div>
+      </div>
+    </div>
+    <div class="contato-e-mapa">
+    <div class="contato">
+      <h1>Entre em Contato Conosco</h1>
+      <form action="https://formspree.io/f/mwkadwld" method="POST">
+        <!-- Formulário com ação para enviar e-mail -->
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
 
-      <footer>
-        <img src="imagens/img-home/logo header.png" alt="" class="img-logo-footer" height="380px" width="280px">
-        <div class="footer-container">
-          
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+     
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.51222096787!2d-48.36555221427756!3d-21.604955129120384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b91fd4907af525%3A0xc7e91cf34534c6f0!2sR.%20Rui%20Barbosa%2C%201441%20-%20Vila%20Santa%20Cruz%2C%20Mat%C3%A3o%20-%20SP%2C%2015990-330!5e0!3m2!1spt-BR!2sbr!4v1721685640109!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="endereço">
+          R. Rui Barbosa, 1441 - Vila Santa Cruz - Matão-Sp, 15990-329
+        </div>
+        <div class="maps-button-container">
+          <a href="https://www.google.com/maps/place/Av.+Pedro+Ivo+Fratini,+320,+Mat%C3%A3o+-+SP,+CEP+15991-335/@-21.6049551,-48.3655522,17z/" target="_blank" class="maps-button">
+            Trajeto
+        </a>
+        </div>
+    </div>
+  </div>
+    <footer>
+      <img
+        src="imagens/img-home/logo header.png"
+        alt=""
+        class="img-logo-footer"
+        height="380px"
+        width="280px"
+      />
+      <div class="footer-container">
         <div>
           <h1>Menu</h1>
           <p><a href="sobre.html">Sobre nós</a></p>
@@ -30,17 +77,24 @@
         <div>
           <h1>Contados</h1>
           <p>+55 17 33823638</p>
-          <p>Av. Pedro Ivo Fratini, 320|<br>Matão-Sp|CEP 15991-335</p>
+          <p>Av. Pedro Ivo Fratini, 320|<br />Matão-Sp|CEP 15991-335</p>
         </div>
         <div>
           <h1>Redes Sociais</h1>
-        <a href="https://www.facebook.com/mais55.eng/" target="_blank"><img src="imagens/img-home/icons8-facebook-48.png" alt=""></a>
-        <a href="https://www.instagram.com/mais55.eng/" target="_blank"><img src="imagens/img-home/icons8-instagram-48.png" alt=""></a>
+          <a href="https://www.facebook.com/mais55.eng/" target="_blank"
+            ><img src="imagens/img-home/icons8-facebook-48.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/mais55.eng/" target="_blank"
+            ><img src="imagens/img-home/icons8-instagram-48.png" alt=""
+          /></a>
         </div>
       </div>
-      </footer>
-      <div class="referencia">
-      <p>&copy; 2024 +55 Engenharia e Execução de Obras. Todos os direitos reservados.</p>
+    </footer>
+    <div class="referencia">
+      <p>
+        &copy; 2024 +55 Engenharia e Execução de Obras. Todos os direitos
+        reservados.
+      </p>
     </div>
-</body>
+  </body>
 </html>
