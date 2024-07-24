@@ -74,7 +74,13 @@ span {
   color: red;
   font-size: 60px;
 }
+samp{
+color: black;
+font-size: 25px;
+font-weight: bold;
+}
 h2 {
+  
   font-size: 35px;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -122,6 +128,10 @@ h2 {
 }
 .texto-de-cda-imagem{
   margin-top: 60px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.9;
+  font-family: "Inter", sans-serif;
 }
 .titulo-galeria {
   margin-left: 10%;
